@@ -27,6 +27,7 @@ function App() {
           Learn React
         </a>
           <button onClick={sendRequest}>SendRequest</button>
+          <input type="text" defaultValue={process.env.REACT_APP_API_URL}/>
       </header>
     </div>
   );
