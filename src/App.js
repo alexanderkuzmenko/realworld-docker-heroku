@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 const axios = require("axios")
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:3001";
+const apiUrl = process.env.REACT_APP_API_URL;
 console.log(apiUrl)
 
 function App() {
