@@ -6,7 +6,7 @@ console.log(apiUrl)
 
 function App() {
     const sendRequest = () => {
-        axios.get(`${apiUrl}/user`).then((response) => {
+        axios.get(`${apiUrl}user`).then((response) => {
             console.log(response)
         })
     }
